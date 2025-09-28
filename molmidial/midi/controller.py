@@ -13,7 +13,8 @@ from dataclasses import dataclass
 from enum import Enum
 from typing import Callable, Dict, List
 
-from elmo.ui.widgets.dial.setings import DialSettings
+from molmidial.midi.dial.settings import DialSettings
+from molmidial.logger import Logger as log
 
 try:
     import mido
@@ -40,8 +41,6 @@ except Exception as e:
         MIDI_AVAILABLE = False
         mido = None
         rtmidi = None
-
-from elmo.logger import Logger as log
 
 
 class MIDIControlType(Enum):
