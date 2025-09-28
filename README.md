@@ -11,7 +11,7 @@
 ## 🚀 Quick Start
 ```bash
 # Clone the repository
-git clone https://github.com/YourUser/MolMiDial.git
+git clone https://github.com/markxbrooks/MolMiDial.git
 cd MolMiDial
 
 # (Optional) create and activate a virtualenv
