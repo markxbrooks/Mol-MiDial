@@ -1,5 +1,8 @@
 # MolMiDial 🎛️🧬
 
+![MolMiDial Mascot](./MolMiDial.png)
+
+
 **MolMiDial** is an open-source bridge between **MIDI controllers** and **molecular visualization tools** (PyMOL, Coot, ElMo, and more). Turn dials, push faders, and rotate knobs to control camera angles, isosurface levels, clipping planes, and other visualization parameters — in real time.
 
 ## ✨ Features
